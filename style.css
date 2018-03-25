@@ -1,5 +1,29 @@
 /*styles go here*/
 
+@font-face{
+	src:url(./fonts/AvenirNext/AvenirNextCyr-Regular.woff);
+	font-family: AvenirNext;
+	font-weight: 300;
+}
+
+@font-face{
+	src:url(./fonts/OpenSans/OpenSans-Regular.ttf);
+	font-family: OpenSans;
+	font-weight: 300;
+}
+
+@font-face{
+	src:url(./fonts/ProximaNova/proximanova-reg-webfont.woff);
+	font-family: ProximaNova;
+	font-weight: 300;
+}
+
+@font-face{
+	src:url(./fonts/Montserrat-Black.ttf);
+	font-family: Montserrat;
+	font-weight: 300;
+}
+
 .class-header{
 	background-image: url(./images/background.jpg);
 	height:890px;
@@ -23,6 +47,8 @@
 	font-size: 13px;
 	list-style: none;
 	margin: 0px;
+	font-family: OpenSans;
+	font-weight: 300;
 }
 
 .my-class-logo{
@@ -41,9 +67,11 @@
 	text-transform: uppercase;
 	padding-top:600px;
 	padding-left: 40px;
-	font-size: 32px;
+	font-size: 40px;
     color: #ffffff;
     margin:0px;
+    font-family: AvenirNext;
+    font-weight: 300;
 }
 
 .heading-two{
@@ -51,7 +79,11 @@
     margin: 0px;
     font-size: 15px;
     color: #ffffff;
-    padding-left: 160px;}
+    font-family: OpenSans;
+	font-weight: 300;
+    position: relative;
+    left: 250px
+}
 
 .class-main{
 	background-color: #a2ca28;
@@ -74,6 +106,8 @@
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 14px;
+	font-family: ProximaNova;
+	font-weight: 300;
 }
 
 .fitness-first{
@@ -100,6 +134,8 @@
 	color: #fd634e;
 	padding-top: 20px;
 	margin: 0px;
+	font-family: Montserrat;
+	font-weight: 300;
 }
 
 .your-body{
@@ -115,4 +151,18 @@
 
 .lorem-ipsum{
 	color: #656e74;
+}
+
+.Resources{
+	font-family: OpenSans;
+	font-weight: 300
+}
+
+.text{
+	font-family: ProximaNova;
+	font-weight: 300;
+}
+
+.menu-point{
+	width: 200px
 }
