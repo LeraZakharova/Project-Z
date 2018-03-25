@@ -1,0 +1,118 @@
+/*styles go here*/
+
+.class-header{
+	background-image: url(./images/background.jpg);
+	height:890px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.class-body{
+	margin: 0px;
+}
+
+.my-class-parent{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.menu-link{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 13px;
+	list-style: none;
+	margin: 0px;
+}
+
+.my-class-logo{
+	height: 40px;
+}
+
+.my-class-menu{
+	display:flex;
+	justify-content: space-between;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+}
+
+.heading-one{
+	text-transform: uppercase;
+	padding-top:600px;
+	padding-left: 40px;
+	font-size: 32px;
+    color: #ffffff;
+    margin:0px;
+}
+
+.heading-two{
+	text-transform: uppercase;
+    margin: 0px;
+    font-size: 15px;
+    color: #ffffff;
+    padding-left: 160px;}
+
+.class-main{
+	background-color: #a2ca28;
+
+}
+
+.class-main-list{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 900px;
+	list-style: none;
+	padding-top: 40px;
+	padding-left: 0px;
+	color: #ffffff;
+}
+
+
+.link-class{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.fitness-first{
+	background-color: #ffffff;
+	width:300px;
+	text-align: center;
+	}
+
+
+.main-block{
+	display: flex;
+}
+
+.main-main{
+	width: 900px;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.its-all-about{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fd634e;
+	padding-top: 20px;
+	margin: 0px;
+}
+
+.your-body{
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #a2ca28;
+	margin: 0px;
+}
+
+.link-read-more{
+	color: #a2ca28;
+}
+
+.lorem-ipsum{
+	color: #656e74;
+}
