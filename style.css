@@ -25,6 +25,12 @@
 }
 
 @font-face{
+	src:url(./fonts/ProximaNova/ProximaNova-Semibold/ProximaNova-Semibold.woff);
+	font-family: ProximaNova;
+	font-weight: 500;
+}
+
+@font-face{
 	src:url(./fonts/Montserrat/Montserrat-Regular.ttf);
 	font-family: Montserrat;
 	font-weight: 300;
@@ -208,4 +214,124 @@
 
 .my-class-image:hover::before{
 	content: '';
+}
+
+.my-class-footer{
+	background-color: #0d1119;
+}
+
+.my-parent-footer{
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+	margin: auto;
+}
+
+.my-class-form{
+	padding-top: 30px;
+}
+
+.my-input{
+	padding:10px;
+	border-radius: 2px;
+	border: none;
+	font-family: ProximaNova;
+	font-weight: 300;
+}
+
+.my-button{
+	background: #a2ca28;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 9px 40px;
+	border-radius: 4px;
+	border: none;
+	font-family: ProximaNova;
+	font-weight: 500;
+	position:relative;
+}
+
+.my-button:after{
+	content: '';
+	display: block;
+	background-image: url(./images/arrow.svg);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 18px;
+	position: absolute;
+	right: 15px;
+}
+
+.my-class-social{
+	display: flex;
+	list-style: none;
+}
+
+.social{
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	margin-left: 20px;
+	position: relative;
+}
+
+.social_fb{
+	background-color: #2e3192;
+}
+
+.social_fb:before{
+	content: '';
+	background-image: url("./images/fb.svg");
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.social_tw{
+	background-color: #00aeef;
+}
+
+.social_tw:before{
+	content: '';
+	background-image: url("./images/tw.svg");
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.social_yt{
+	background-color: #ed3123;
+}
+
+.social_yt:before{
+	content: '';
+	background-image: url("./images/yt.svg");
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+
+.social_in{
+	background-color: #171a8f;
+}
+
+.social_in:before{
+	content: '';
+	background-image: url("./images/ln.svg");
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
 }
