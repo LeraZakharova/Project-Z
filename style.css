@@ -13,13 +13,19 @@
 }
 
 @font-face{
-	src:url(./fonts/ProximaNova/proximanova-reg-webfont.woff);
+	src:url(./fonts/OpenSans/OpenSans-Light.ttf);
+	font-family: OpenSans;
+	font-weight: 100;
+}
+
+@font-face{
+	src:url(./fonts/ProximaNova/ProximaNova-Reg.otf);
 	font-family: ProximaNova;
 	font-weight: 300;
 }
 
 @font-face{
-	src:url(./fonts/Montserrat-Black.ttf);
+	src:url(./fonts/Montserrat/Montserrat-Regular.ttf);
 	font-family: Montserrat;
 	font-weight: 300;
 }
@@ -113,12 +119,14 @@
 .fitness-first{
 	background-color: #ffffff;
 	width:300px;
+	height: 300px;
 	text-align: center;
 	}
 
 
 .main-block{
 	display: flex;
+	height: 300px;
 }
 
 .main-main{
@@ -143,17 +151,24 @@
 	text-transform: uppercase;
 	color: #a2ca28;
 	margin: 0px;
+	font-family: OpenSans;
+	font-weight: 100;
 }
 
 .link-read-more{
 	color: #a2ca28;
+	font-family: OpenSans;
+	font-weight: 300;
 }
 
 .lorem-ipsum{
 	color: #656e74;
+	font-family: OpenSans;
+	font-weight: 300;
+	font-size: 14px;
 }
 
-.Resources{
+.resources{
 	font-family: OpenSans;
 	font-weight: 300
 }
@@ -165,4 +180,32 @@
 
 .menu-point{
 	width: 200px
+}
+
+.my-class-image{
+	position: relative;
+}
+
+.my-class-image::before{
+	display: block;
+	height: 300px;
+	width: 604px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.my-image-hover{
+	display: none;
+	position: absolute;
+	top: 110px;
+	width: 604px;
+	text-align: center;
+}
+
+.my-class-image:hover .my-image-hover{
+	display: block;
+}
+
+.my-class-image:hover::before{
+	content: '';
 }
