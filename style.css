@@ -1,5 +1,41 @@
 /*styles go here*/
 
+@font-face{
+	src:url(./fonts/AvenirNextCyr-Regular.woff);
+	font-family: AvenirNext;
+	font-weight: 300;
+}
+
+@font-face{
+	src:url(./fonts/OpenSans-Regular.ttf);
+	font-family: OpenSans;
+	font-weight: 300;
+}
+
+@font-face{
+	src:url(./fonts/OpenSans-Light.ttf);
+	font-family: OpenSans;
+	font-weight: 100;
+}
+
+@font-face{
+	src:url(./fonts/ProximaNova-Reg.otf);
+	font-family: ProximaNova;
+	font-weight: 300;
+}
+
+@font-face{
+	src:url(./fonts/ProximaNova-Semibold.woff);
+	font-family: ProximaNova;
+	font-weight: 500;
+}
+
+@font-face{
+	src:url(./fonts/Montserrat-Regular.ttf);
+	font-family: Montserrat;
+	font-weight: 300;
+}
+
 .class-header{
 	background-image: url(./images/background.jpg);
 	height:890px;
@@ -23,6 +59,8 @@
 	font-size: 13px;
 	list-style: none;
 	margin: 0px;
+	font-family: OpenSans;
+	font-weight: 300;
 }
 
 .my-class-logo{
@@ -41,9 +79,11 @@
 	text-transform: uppercase;
 	padding-top:600px;
 	padding-left: 40px;
-	font-size: 32px;
+	font-size: 40px;
     color: #ffffff;
     margin:0px;
+    font-family: AvenirNext;
+    font-weight: 300;
 }
 
 .heading-two{
@@ -51,7 +91,11 @@
     margin: 0px;
     font-size: 15px;
     color: #ffffff;
-    padding-left: 160px;}
+    font-family: OpenSans;
+	font-weight: 300;
+    position: relative;
+    left: 250px
+}
 
 .class-main{
 	background-color: #a2ca28;
@@ -74,17 +118,21 @@
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 14px;
+	font-family: ProximaNova;
+	font-weight: 300;
 }
 
 .fitness-first{
 	background-color: #ffffff;
 	width:300px;
+	height: 300px;
 	text-align: center;
 	}
 
 
 .main-block{
 	display: flex;
+	height: 300px;
 }
 
 .main-main{
@@ -100,6 +148,8 @@
 	color: #fd634e;
 	padding-top: 20px;
 	margin: 0px;
+	font-family: Montserrat;
+	font-weight: 300;
 }
 
 .your-body{
@@ -107,12 +157,190 @@
 	text-transform: uppercase;
 	color: #a2ca28;
 	margin: 0px;
+	font-family: OpenSans;
+	font-weight: 100;
 }
 
 .link-read-more{
 	color: #a2ca28;
+	font-family: OpenSans;
+	font-weight: 300;
+	font-size: 14px;
 }
 
 .lorem-ipsum{
 	color: #656e74;
+	font-family: OpenSans;
+	font-weight: 300;
+	font-size: 14px;
+	padding-left: 5px;
+    padding-right: 5px;
+}
+
+.resources{
+	font-family: OpenSans;
+	font-weight: 300
+}
+
+.text{
+	font-family: ProximaNova;
+	font-weight: 300;
+}
+
+.menu-point{
+	width: 200px
+}
+
+.my-class-image{
+	position: relative;
+}
+
+.my-class-image::before{
+	display: block;
+	height: 300px;
+	width: 604px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+
+.my-image-hover{
+	display: none;
+	position: absolute;
+	top: 110px;
+	width: 604px;
+	text-align: center;
+}
+
+.my-class-image:hover .my-image-hover{
+	display: block;
+}
+
+.my-class-image:hover::before{
+	content: '';
+}
+
+.my-class-footer{
+	background-color: #0d1119;
+}
+
+.my-parent-footer{
+	display: flex;
+	justify-content: space-between;
+	width: 900px;
+	margin: auto;
+}
+
+.my-class-form{
+	padding-top: 23px;
+}
+
+.my-input{
+	padding:10px;
+	border-radius: 2px;
+	border: none;
+	font-family: ProximaNova;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.my-button{
+	background: #a2ca28;
+	color: #ffffff;
+	font-size: 15px;
+	padding: 9px 40px;
+	border-radius: 4px;
+	border: none;
+	font-family: ProximaNova;
+	font-weight: 500;
+	position:relative;
+}
+
+.my-button:after{
+	content: '';
+	display: block;
+	background-image: url(./images/arrow.svg);
+	background-repeat: no-repeat;
+	width: 16px;
+	height: 18px;
+	position: absolute;
+	right: 15px;
+	top:13px;
+}
+
+.my-class-social{
+	display: flex;
+	list-style: none;
+}
+
+.social{
+	height: 48px;
+	width: 48px;
+	border-radius: 50%;
+	margin-left: 20px;
+	position: relative;
+}
+
+.social_fb{
+	background-color: #2e3192;
+}
+
+.social_fb:before{
+	content: '';
+	background-image: url("./images/fb.svg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.social_tw{
+	background-color: #00aeef;
+}
+
+.social_tw:before{
+	content: '';
+	background-image: url("./images/tw.svg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+.social_yt{
+	background-color: #ed3123;
+}
+
+.social_yt:before{
+	content: '';
+	background-image: url("./images/yt.svg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+}
+
+
+.social_in{
+	background-color: #171a8f;
+}
+
+.social_in:before{
+	content: '';
+	background-image: url("./images/ln.svg");
+	background-repeat: no-repeat;
+	display: block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	top: 15px;
+	left: 15px;
 }

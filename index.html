@@ -5,6 +5,8 @@
   	<title>Fitness in a can</title>
     <meta name="keywords" content="Fitness"/>
     <link rel="stylesheet" href="./style.css">
+    <link rel="reset" href="./reset.css">
+    <link rel="normalize" href="./normalize.css">
   </head>
 
   <body class="class-body">
@@ -27,28 +29,28 @@
     <main class="class-main">
     	<section>
     			<ul class="class-main-list">
-	    			<li>
+	    			<li class="menu-point">
 	    				<img src="./images/icon1.svg">
-	    				<h2>Resources</h2>
-	    				<p>Lorem ipsum bla bla bla</p>
+	    				<h2 class="resources">Resources</h2>
+	    				<p class="text"> Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration and work-in-progress </p>
 	    				<a class="link-class" href="#">Explore more</a>
 	    			</li>
-	    			<li>
+	    			<li class="menu-point">
 	    				<img src="./images/icon2.svg">
-	    				<h2>Training & Funding</h2>
-	    				<p>Lorem ipsum bla bla bla</p>
+	    				<h2 class="resources">Training & Funding</h2>
+	    				<p class="text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. </p>
 	    				<a class="link-class" href="#">Browse training</a>
 	    			</li>
-	    			<li>
+	    			<li class="menu-point">
 	    				<img src="./images/icon3.svg">
-	    				<h2>Connect</h2>
-	    				<p>Lorem ipsum bla bla bla</p>
+	    				<h2 class="resources">Connect</h2>
+	    				<p class="text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily manage your inspiration.</p>
 	    				<a class="link-class" href="#">Connect now</a>
 	    			</li>
-	    			<li>
+	    			<li class="menu-point">
 	    				<img src="./images/icon4.svg">
-	    				<h2>Communicate</h2>
-	    				<p>Lorem ipsum bla bla bla</p>
+	    				<h2 class="resources">Communicate</h2>
+	    				<p class="text">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. Easily </p>
 	    				<a class="link-class" href="#">Start now</a>
 	    			</li>
 	    		</ul>
@@ -61,11 +63,24 @@
     					<p class="lorem-ipsum">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
     					<a class="link-read-more" href="#">Read more</a>
     				</div>
-    				<img src="./images/img1.jpg" height="300">
+                    <div class="my-class-image">
+    				    <img src="./images/img1.jpg" height="300">
+                        <div class="my-image-hover">
+                            <h2 class="your-body">Fitness first</h2>
+                            <h3 class="its-all-about">It's all about</h3>
+                        </div>
+                    </div>
+                    
     			</div>
     			<div class="main-block">
-    				<img src="./images/img2.jpg" height="300">
-    				<div class="fitness-first">
+                    <div class="my-class-image">
+    				    <img src="./images/img2.jpg" height="300">
+                        <div class="my-image-hover">
+                            <h3 class="its-all-about">Love your</h3>
+                            <h2 class="your-body">Your body</h2>
+                        </div>
+    				</div>
+                    <div class="fitness-first">
     					<h3 class="its-all-about">Love your</h3>
     					<h2 class="your-body">Your body</h2>
     					<img src="./images/icon5.svg">
@@ -77,34 +92,32 @@
 
     	</section>
     </main>
-    <footer>
-    	<form>
-    		<input type="text" placeholder="Your Name">
-    		<input type="text" placeholder="Your Email">
-    		<button>Join Newsletter</button>
-    	</form>
-    	<ul>
-    		<li>
-    			<a href="#">
-    				<img src="#">
-    			</a>
-    		</li>
-    		<li>
-    			<a href="#">
-    				<img src="#">
-    			</a>
-    		</li>
-    		<li>
-    			<a href="#">
-    				<img src="#">
-    			</a>
-    		</li>
-    		<li>
-    			<a href="#">
-    				<img src="#">
-    			</a>
-    		</li>
-    	</ul>
+    <footer class="my-class-footer">
+    	<div class="my-parent-footer">
+            <form class="my-class-form">
+    		  <input class="my-input" type="text" placeholder="Your Name">
+    		  <input class="my-input" type="text" placeholder="Your Email">
+    		  <button class="my-button" type="submit">Join Newsletter</button>
+        	</form>
+        	<ul class="my-class-social">
+        		<li class="social social_fb">
+        			<a href="#">
+        			</a>
+        		</li>
+        		<li class="social social_tw">
+        			<a href="#">
+        			</a>
+        		</li>
+        		<li class="social social_yt">
+        			<a href="#">
+        			</a>
+        		</li>
+        		<li class="social social_in">
+        			<a href="#">
+        			</a>
+        		</li>
+        	</ul>
+        </div>
     </footer>
   </body>
 
