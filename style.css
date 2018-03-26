@@ -1,37 +1,37 @@
 /*styles go here*/
 
 @font-face{
-	src:url(./fonts/AvenirNext/AvenirNextCyr-Regular.woff);
+	src:url(./fonts/AvenirNextCyr-Regular.woff);
 	font-family: AvenirNext;
 	font-weight: 300;
 }
 
 @font-face{
-	src:url(./fonts/OpenSans/OpenSans-Regular.ttf);
+	src:url(./fonts/OpenSans-Regular.ttf);
 	font-family: OpenSans;
 	font-weight: 300;
 }
 
 @font-face{
-	src:url(./fonts/OpenSans/OpenSans-Light.ttf);
+	src:url(./fonts/OpenSans-Light.ttf);
 	font-family: OpenSans;
 	font-weight: 100;
 }
 
 @font-face{
-	src:url(./fonts/ProximaNova/ProximaNova-Reg.otf);
+	src:url(./fonts/ProximaNova-Reg.otf);
 	font-family: ProximaNova;
 	font-weight: 300;
 }
 
 @font-face{
-	src:url(./fonts/ProximaNova/ProximaNova-Semibold/ProximaNova-Semibold.woff);
+	src:url(./fonts/ProximaNova-Semibold.woff);
 	font-family: ProximaNova;
 	font-weight: 500;
 }
 
 @font-face{
-	src:url(./fonts/Montserrat/Montserrat-Regular.ttf);
+	src:url(./fonts/Montserrat-Regular.ttf);
 	font-family: Montserrat;
 	font-weight: 300;
 }
@@ -165,6 +165,7 @@
 	color: #a2ca28;
 	font-family: OpenSans;
 	font-weight: 300;
+	font-size: 14px;
 }
 
 .lorem-ipsum{
@@ -172,6 +173,8 @@
 	font-family: OpenSans;
 	font-weight: 300;
 	font-size: 14px;
+	padding-left: 5px;
+    padding-right: 5px;
 }
 
 .resources{
@@ -228,7 +231,7 @@
 }
 
 .my-class-form{
-	padding-top: 30px;
+	padding-top: 23px;
 }
 
 .my-input{
@@ -237,6 +240,7 @@
 	border: none;
 	font-family: ProximaNova;
 	font-weight: 300;
+	font-size: 14px;
 }
 
 .my-button{
@@ -260,6 +264,7 @@
 	height: 18px;
 	position: absolute;
 	right: 15px;
+	top:13px;
 }
 
 .my-class-social{
@@ -282,6 +287,7 @@
 .social_fb:before{
 	content: '';
 	background-image: url("./images/fb.svg");
+	background-repeat: no-repeat;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -297,6 +303,7 @@
 .social_tw:before{
 	content: '';
 	background-image: url("./images/tw.svg");
+	background-repeat: no-repeat;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -312,6 +319,7 @@
 .social_yt:before{
 	content: '';
 	background-image: url("./images/yt.svg");
+	background-repeat: no-repeat;
 	display: block;
 	width: 18px;
 	height: 18px;
@@ -328,6 +336,7 @@
 .social_in:before{
 	content: '';
 	background-image: url("./images/ln.svg");
+	background-repeat: no-repeat;
 	display: block;
 	width: 18px;
 	height: 18px;
