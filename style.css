@@ -36,16 +36,6 @@
 	font-weight: 300;
 }
 
-@keyframes linkAnimation{
-	0%{
-		color: white;
-	}
-	100%{
-		color: red;
-	}
-
-}
-
 .class-header{
 	background-image: url(./images/background.jpg);
 	height:890px;
@@ -121,8 +111,6 @@
 	padding-top: 40px;
 	padding-left: 0px;
 	color: #ffffff;
-	min-width: 1190px;
-	max-width: 1300px;
 }
 
 
@@ -134,21 +122,17 @@
 	font-weight: 300;
 }
 
-.link-class:hover{
-	animation: linkAnimation 1s 1;
-}
-
 .fitness-first{
-	height: 394px;
+	background-color: #ffffff;
+	width:300px;
+	height: 300px;
 	text-align: center;
-	padding: 40px 30px;
 	}
 
 
 .main-block{
 	display: flex;
-	height: 394px;
-	background-color: #fff;
+	height: 300px;
 }
 
 .main-main{
@@ -156,8 +140,6 @@
     margin: auto;
     padding-top: 80px;
     padding-bottom: 80px;
-    min-width: 1190px;
-	max-width: 1300px;
 }
 
 .its-all-about{
@@ -206,7 +188,7 @@
 }
 
 .menu-point{
-	padding: 0px 10px;
+	width: 200px
 }
 
 .my-class-image{
@@ -214,32 +196,27 @@
 }
 
 .my-class-image::before{
-	content: '';
 	display: block;
-	background-color: rgba(0, 0, 0, 0.5);
+	height: 300px;
+	width: 604px;
+	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
-	height: 394px;
-	width: 100%;
-	opacity: 0;
-	transition: all 0.5s;
 }
 
 .my-image-hover{
+	display: none;
 	position: absolute;
-	top: 50%;
-	margin-top: -40px;
-	width: 100%;
+	top: 110px;
+	width: 604px;
 	text-align: center;
-	opacity: 0;
-	transition: all 0.5s;
 }
 
 .my-class-image:hover .my-image-hover{
-	opacity: 1;
+	display: block;
 }
 
 .my-class-image:hover::before{
-	opacity: 1;
+	content: '';
 }
 
 .my-class-footer{
