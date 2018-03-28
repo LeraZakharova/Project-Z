@@ -46,6 +46,18 @@
 
 }
 
+@keyframes socialAnimation{
+	0%{
+		transform: scale(1,1)
+	}
+	50%{
+		transform: scale(1.5,1.5)
+	}
+	100%{
+		transform: scale(1,1);
+	}
+}
+
 .class-header{
 	background-image: url(./images/background.jpg);
 	height:890px;
@@ -74,21 +86,21 @@
 }
 
 .my-class-logo{
-	height: 40px;
+	height: 45px;
 }
 
 .my-class-menu{
 	display:flex;
 	justify-content: space-between;
-	padding-left: 30px;
-	padding-right: 30px;
-	padding-top: 30px;
+	padding-left: 55px;
+	padding-right: 65px;
+	padding-top: 40px;
 }
 
 .heading-one{
 	text-transform: uppercase;
-	padding-top:600px;
-	padding-left: 40px;
+	padding-top:585px;
+	padding-left: 110px;
 	font-size: 40px;
     color: #ffffff;
     margin:0px;
@@ -104,7 +116,7 @@
     font-family: OpenSans;
 	font-weight: 300;
     position: relative;
-    left: 250px
+    left: 275px
 }
 
 .class-main{
@@ -116,14 +128,12 @@
 	display: flex;
 	justify-content: space-between;
 	margin: 0 auto;
-	width: 900px;
 	list-style: none;
-	padding-top: 40px;
+	padding-top: 110px;
 	padding-left: 0px;
 	color: #ffffff;
-	min-width: 1190px;
-	max-width: 1300px;
-}
+	width: 1190px;
+	}
 
 
 .link-class{
@@ -168,6 +178,7 @@
 	margin: 0px;
 	font-family: Montserrat;
 	font-weight: 300;
+	letter-spacing: 1px;
 }
 
 .your-body{
@@ -197,16 +208,26 @@
 
 .resources{
 	font-family: OpenSans;
-	font-weight: 300
+	font-weight: 300;
+	margin: 0;
+	padding-top: 10px;
+}
+
+.connect{
+	padding-bottom: 5px;
 }
 
 .text{
 	font-family: ProximaNova;
-	font-weight: 300;
+    font-weight: 300;
+    width: 220px;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .menu-point{
-	padding: 0px 10px;
+	padding: 0px;
 }
 
 .my-class-image{
@@ -249,12 +270,15 @@
 .my-parent-footer{
 	display: flex;
 	justify-content: space-between;
-	width: 900px;
+	width: 1190px;
 	margin: auto;
+	padding-top: 65px;
 }
 
 .my-class-form{
-	padding-top: 23px;
+	padding-left: 60px;
+	padding-top: 5px;
+	padding-bottom: 20px;
 }
 
 .my-input{
@@ -283,8 +307,8 @@
 	display: block;
 	background-image: url(./images/arrow.svg);
 	background-repeat: no-repeat;
-	width: 16px;
-	height: 18px;
+	width: 11px;
+	height: 11px;
 	position: absolute;
 	right: 15px;
 	top:13px;
@@ -293,6 +317,7 @@
 .my-class-social{
 	display: flex;
 	list-style: none;
+	margin: 0px;
 }
 
 .social{
@@ -301,6 +326,10 @@
 	border-radius: 50%;
 	margin-left: 20px;
 	position: relative;
+}
+
+.social:hover{
+	animation: socialAnimation 2s 1
 }
 
 .social_fb{
@@ -312,8 +341,8 @@
 	background-image: url("./images/fb.svg");
 	background-repeat: no-repeat;
 	display: block;
-	width: 18px;
-	height: 18px;
+	width: 11px;
+	height: 19px;
 	position: absolute;
 	top: 15px;
 	left: 15px;
@@ -328,8 +357,8 @@
 	background-image: url("./images/tw.svg");
 	background-repeat: no-repeat;
 	display: block;
-	width: 18px;
-	height: 18px;
+	width: 19px;
+	height: 16px;
 	position: absolute;
 	top: 15px;
 	left: 15px;
@@ -344,8 +373,8 @@
 	background-image: url("./images/yt.svg");
 	background-repeat: no-repeat;
 	display: block;
-	width: 18px;
-	height: 18px;
+	width: 21px;
+	height: 15px;
 	position: absolute;
 	top: 15px;
 	left: 15px;
@@ -361,8 +390,8 @@
 	background-image: url("./images/ln.svg");
 	background-repeat: no-repeat;
 	display: block;
-	width: 18px;
-	height: 18px;
+	width: 19px;
+	height: 19px;
 	position: absolute;
 	top: 15px;
 	left: 15px;
