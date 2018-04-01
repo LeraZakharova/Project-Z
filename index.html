@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="reset" href="./reset.css">
     <link rel="normalize" href="./normalize.css">
-    <script src="./my_js.js"></script>
-  </head>
+   </head>
 
   <body class="class-body">
     <header class="class-header">
@@ -95,12 +94,15 @@
     </main>
     <footer class="my-class-footer">
     	<div class="my-parent-footer">
-            <form class="my-class-form">
-    		  <input class="my-input" type="text" placeholder="Your Name">
-    		  <input class="my-input" type="text" placeholder="Your Email">
-    		  <button class="my-button" type="submit">Join Newsletter</button>
-        	</form>
-        	<ul class="my-class-social">
+            <form class="my-class-form" id="my_form">
+    		  <input class="my-input" type="text" placeholder="Your Name" id="name">
+    		  <input class="my-input" type="text" placeholder="Your Email" id="email">
+    		  <button class="my-button" type="submit" id="join_newsletter">Join Newsletter</button>
+            </form>
+        	<div class="no_display" id="message">
+                  Спасибо, Ваше сообщение отправлено!
+            </div>
+            <ul class="my-class-social">
         		<li class="social social_fb">
         			<a href="#">
         			</a>
@@ -120,6 +122,7 @@
         	</ul>
         </div>
     </footer>
+      <script src="./my_js2.js"></script>
   </body>
 
 </html>
